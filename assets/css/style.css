@@ -24,14 +24,25 @@ body{
     color: white; /* DA TOGLIERE */
 }
 
-.container-main{
+.container-section{
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
     max-width: 1200px;
     height: 100%;
     width: 70%;
-    color: white; /* DA TOGLIERE */
+    color: #23272A;
+}
+
+.container-section-4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
+    height: 100%;
+    width: 70%;
+    color: #23272A;
 }
 
 .btn{
@@ -49,13 +60,13 @@ header{
 header .container-header .logo{
     width: 120px;
     height: 40px;
-    background-color: orange;
+    background-color: #688DF3;
 }
 
 header .container-header .menu{
     width: 530px;
     height: 40px;
-    background-color: orange
+    background-color: #688DF3
 }
 
 header .container-header .menu ul{
@@ -76,8 +87,6 @@ header .container-header .menu ul li a:hover{
 
 header .container-header .menu .log-in{ /* DA RIVEDERE */
     background-color: #FFFFFF;
-    height: 40px;
-    padding: 15px;
 }
 /* END HEADER */
 
@@ -127,14 +136,14 @@ main .section-1{
 }
 
 main .section-1 .img{
-    background-color: orange;
+    background-color: #688DF3;
     margin-top: 160px;
     height: 395px;
     width: 615px;
 }
 
 main .section-1 .text{
-    background-color: orange;
+    background-color: #688DF3;
     margin-top: 160px;
     height: 450px;
     width: 340px;
@@ -148,14 +157,14 @@ main .section-2{
 }
 
 main .section-2 .img{
-    background-color: orange;
+    background-color: #688DF3;
     margin-top: 160px;
     height: 375px;
     width: 630px;
 }
 
 main .section-2 .text{
-    background-color: orange;
+    background-color: #688DF3;
     margin-top: 160px;
     height: 245px;
     width: 355px;
@@ -169,18 +178,59 @@ main .section-3{
 }
 
 main .section-3 .img{
-    background-color: orange;
+    background-color: #688DF3;
     margin-top: 160px;
     height: 420px;
     width: 590px;
 }
 
 main .section-3 .text{
-    background-color: orange;
+    background-color: #688DF3;
     margin-top: 160px;
     height: 305px;
     width: 340px;
 }
 /* END SECTION-3 */
+
+/* SECTION-4 */
+main .section-4{
+    background-color: #F6F6F6;
+    height: 1380px;
+    
+}
+
+main .section-4 .text-due{
+    background-color: #688DF3;
+    text-align: center;
+    width: 995px;
+    height: 125px;
+    margin-top: 160px;
+}
+
+main .section-4 .img{
+    background-color: #688DF3;
+    margin-top: 100px;
+    width: 1100px;
+    height: 585px;
+}
+
+main .section-4 .adventure{
+    background-color: #688DF3;
+    text-align: center;
+    margin-top: 100px;
+    width: 587px;
+    height: 170px;
+}
+
+main .section-4 .adventure span{
+    display: block;
+}
+
+main .section-4 .adventure .download-2{
+    background-color: #8EA1E1;
+    color: #FFFFFF;
+    margin-top: 50px;
+}
+/* END SECTION-4 */
 
 /* END MAIN*/
