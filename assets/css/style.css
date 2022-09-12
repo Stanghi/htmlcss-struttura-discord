@@ -3,3 +3,45 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.debug{
+    border: 1px solid black;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
+    height: 100%;
+    width: 60%;
+    color: white; /* DA TOGLIERE */
+}
+
+header{
+    background-color: #3161E0;
+    height: 100px;
+}
+
+header .logo{
+    width:100px;
+    height: 50px;
+    background-color: orange;
+}
+
+header .menu{
+    width:500px;
+    height: 50px;
+    background-color: orange
+}
+
+header .log-in{
+    width:100px;
+    height: 50px;
+    background-color: orange
+}
