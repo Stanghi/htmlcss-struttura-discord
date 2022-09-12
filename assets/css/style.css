@@ -115,13 +115,13 @@ main .jumbotron{
     align-items: center;
     color: #FFFFFF;
     background-color: #517AEA;
-    height: 575px; /* DA TOGLIERE */
+    height: 575px; /* DA LEVARE */
 }
 
 main .jumbotron .box-jumbo{
     text-align: center;
     width: 760px;
-    height: 275px;
+    height: 275px; /* DA LEVARE */
     background-color: #688DF3;
 }
 
@@ -134,13 +134,13 @@ main .jumbotron .box-jumbo p{
 }
 
 main .jumbotron .box-jumbo .download{
-    height: 55px;
+    height: 55px; /* DA LEVARE */
     margin-right: 25px;
     background-color: #FFFFFF;
 }
 
 main .jumbotron .box-jumbo .open{
-    height: 55px;
+    height: 55px; /* DA LEVARE */
     background-color: #23272A;
     color: white;
 }
@@ -149,20 +149,20 @@ main .jumbotron .box-jumbo .open{
 /* SECTION-1 */
 main .section-1{
     background-color: #FFFFFF;
-    height: 750px;
+    height: 750px; /* DA LEVARE */
 }
 
 main .section-1 .img{
     background-color: #688DF3;
     margin-top: 160px;
-    height: 395px;
+    height: 395px; /* DA LEVARE */
     width: 615px;
 }
 
 main .section-1 .text{
     background-color: #688DF3;
     margin-top: 160px;
-    height: 450px;
+    height: 450px; /* DA LEVARE */
     width: 340px;
 }
 /* END SECTION-1 */
@@ -170,20 +170,20 @@ main .section-1 .text{
 /* SECTION-2 */
 main .section-2{
     background-color: #F6F6F6;
-    height: 750px;
+    height: 750px; /* DA LEVARE */
 }
 
 main .section-2 .img{
     background-color: #688DF3;
     margin-top: 160px;
-    height: 375px;
+    height: 375px; /* DA LEVARE */
     width: 630px;
 }
 
 main .section-2 .text{
     background-color: #688DF3;
     margin-top: 160px;
-    height: 245px;
+    height: 245px; /* DA LEVARE */
     width: 355px;
 }
 /* END SECTION-2 */
@@ -191,20 +191,20 @@ main .section-2 .text{
 /* SECTION-3 */
 main .section-3{
     background-color: #FFFFFF;
-    height: 750px;
+    height: 750px; /* DA LEVARE */
 }
 
 main .section-3 .img{
     background-color: #688DF3;
     margin-top: 160px;
-    height: 420px;
+    height: 420px; /* DA LEVARE */
     width: 590px;
 }
 
 main .section-3 .text{
     background-color: #688DF3;
     margin-top: 160px;
-    height: 305px;
+    height: 305px; /* DA LEVARE */
     width: 340px;
 }
 /* END SECTION-3 */
@@ -212,7 +212,7 @@ main .section-3 .text{
 /* SECTION-4 */
 main .section-4{
     background-color: #F6F6F6;
-    height: 1380px;
+    height: 1380px; /* DA LEVARE */
     
 }
 
@@ -220,7 +220,7 @@ main .section-4 .text-due{
     background-color: #688DF3;
     text-align: center;
     width: 995px;
-    height: 125px;
+    height: 125px; /* DA LEVARE */
     margin-top: 160px;
 }
 
@@ -228,7 +228,7 @@ main .section-4 .img{
     background-color: #688DF3;
     margin-top: 100px;
     width: 1100px;
-    height: 585px;
+    height: 585px; /* DA LEVARE */
 }
 
 main .section-4 .adventure{
@@ -236,7 +236,7 @@ main .section-4 .adventure{
     text-align: center;
     margin-top: 100px;
     width: 587px;
-    height: 170px;
+    height: 170px; /* DA LEVARE */
 }
 
 main .section-4 .adventure span{
@@ -255,7 +255,7 @@ main .section-4 .adventure .download-2{
 /* FOOTER */
 footer{
     background-color: #151719;
-    height: 666px;
+    height: 666px; /* DA LEVARE */
 }
 
 footer .container-footer .footer-top{
@@ -270,21 +270,19 @@ footer .container-footer .footer-top{
 footer .container-footer .footer-top .contacts{
     background-color: #688DF3;
     width: 230px;
-    height: 155px;
+    height: 155px; /* DA LEVARE */
 }
 
 footer .container-footer .footer-top .list{
     background-color: #688DF3;
-    margin-left: ;
     width: 105px;
-    height: 175px;
+    height: 175px; /* DA LEVARE */
 }
 
 footer .container-footer .footer-top .risorse{
     background-color: #688DF3;
-    margin-left: ;
     width: 105px;
-    height: 370px;
+    height: 370px; /* DA LEVARE */
 }
 
 footer .container-footer-bottom .logo{
@@ -298,5 +296,4 @@ footer .container-footer-bottom .btn .registrati{
     background-color: #8EA1E1;
     color: #FFFFFF;
 }
-
 /* END FOOTER */
