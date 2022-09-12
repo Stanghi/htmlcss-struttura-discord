@@ -12,36 +12,104 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.container{
+.container-header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
     max-width: 1200px;
     height: 100%;
-    width: 60%;
+    width: 70%;
     color: white; /* DA TOGLIERE */
+}
+
+.container-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
+    height: 100%;
+    width: 70%;
+    color: white; /* DA TOGLIERE */
+}
+
+.btn{
+    padding: 15px 30px;
+    border: none;
+    border-radius: 40px;
 }
 
 header{
     background-color: #3161E0;
-    height: 100px;
+    height: 100px; /* DA TOGLIERE */
 }
 
-header .logo{
-    width:100px;
-    height: 50px;
+header .container-header .logo{
+    width: 120px;
+    height: 40px;
     background-color: orange;
 }
 
-header .menu{
-    width:500px;
-    height: 50px;
+header .container-header .menu{
+    width: 530px;
+    height: 40px;
     background-color: orange
 }
 
-header .log-in{
-    width:100px;
-    height: 50px;
-    background-color: orange
+header .container-header .menu ul{
+    list-style: none; 
+    display: flex;
+    justify-content: space-between;
+    line-height: 40px;
+}
+
+header .container-header .menu ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+header .container-header .menu ul li a:hover{
+    text-decoration: underline;
+}
+
+header .container-header .menu .log-in{ /* DA RIVEDERE */
+    background-color: #FFFFFF;
+    height: 40px;
+    padding: 15px;
+}
+
+main .jumbotron{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #517AEA;
+    height: 575px; /* DA TOGLIERE */
+}
+
+main .jumbotron .container-main .box-jumbo{
+    text-align: center;
+    width: 760px;
+    height: 275px;
+    background-color: #688DF3;
+}
+
+main .jumbotron .container-main .box-jumbo h1{
+    margin-bottom: 50px;
+}
+
+main .jumbotron .container-main .box-jumbo p{
+    margin-bottom: 30px;
+}
+
+main .jumbotron .container-main .box-jumbo .download{
+    height: 55px;
+    margin-right: 25px;
+    background-color: #FFFFFF;
+}
+
+main .jumbotron .container-main .box-jumbo .open{
+    height: 55px;
+    background-color: #23272A;
+    color: white;
 }
