@@ -5,6 +5,7 @@
 }
 
 .debug{
+    background-color: rgba(255, 0, 0, .25);
     border: 1px solid black;
 }
 
@@ -25,8 +26,7 @@ body{
 
 .container-main{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
     margin: 0 auto;
     max-width: 1200px;
     height: 100%;
@@ -40,6 +40,7 @@ body{
     border-radius: 40px;
 }
 
+/* HEADER */
 header{
     background-color: #3161E0;
     height: 100px; /* DA TOGLIERE */
@@ -78,38 +79,108 @@ header .container-header .menu .log-in{ /* DA RIVEDERE */
     height: 40px;
     padding: 15px;
 }
+/* END HEADER */
 
+/* MAIN */
+/* JUMBOTRON */
 main .jumbotron{
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #FFFFFF;
     background-color: #517AEA;
     height: 575px; /* DA TOGLIERE */
 }
 
-main .jumbotron .container-main .box-jumbo{
+main .jumbotron .box-jumbo{
     text-align: center;
     width: 760px;
     height: 275px;
     background-color: #688DF3;
 }
 
-main .jumbotron .container-main .box-jumbo h1{
+main .jumbotron .box-jumbo h1{
     margin-bottom: 50px;
 }
 
-main .jumbotron .container-main .box-jumbo p{
+main .jumbotron .box-jumbo p{
     margin-bottom: 30px;
 }
 
-main .jumbotron .container-main .box-jumbo .download{
+main .jumbotron .box-jumbo .download{
     height: 55px;
     margin-right: 25px;
     background-color: #FFFFFF;
 }
 
-main .jumbotron .container-main .box-jumbo .open{
+main .jumbotron .box-jumbo .open{
     height: 55px;
     background-color: #23272A;
     color: white;
 }
+/* END JUMBOTRON */
+
+/* SECTION-1 */
+main .section-1{
+    background-color: #FFFFFF;
+    height: 750px;
+}
+
+main .section-1 .img{
+    background-color: orange;
+    margin-top: 160px;
+    height: 395px;
+    width: 615px;
+}
+
+main .section-1 .text{
+    background-color: orange;
+    margin-top: 160px;
+    height: 450px;
+    width: 340px;
+}
+/* END SECTION-1 */
+
+/* SECTION-2 */
+main .section-2{
+    background-color: #F6F6F6;
+    height: 750px;
+}
+
+main .section-2 .img{
+    background-color: orange;
+    margin-top: 160px;
+    height: 375px;
+    width: 630px;
+}
+
+main .section-2 .text{
+    background-color: orange;
+    margin-top: 160px;
+    height: 245px;
+    width: 355px;
+}
+/* END SECTION-2 */
+
+/* SECTION-3 */
+main .section-3{
+    background-color: #FFFFFF;
+    height: 750px;
+}
+
+main .section-3 .img{
+    background-color: orange;
+    margin-top: 160px;
+    height: 420px;
+    width: 590px;
+}
+
+main .section-3 .text{
+    background-color: orange;
+    margin-top: 160px;
+    height: 305px;
+    width: 340px;
+}
+/* END SECTION-3 */
+
+/* END MAIN*/
